@@ -24,7 +24,7 @@ void SkillColuceoHeal::castendNoDamageId(block_list *src, block_list *target, ui
 
 			if( partycount > 1 )
 				i += (i / 100) * (partycount * 10) / 4;
-			if( (status_isimmune(target))
+			if (status_isimmune(target))
 				i = 0; // Should heal by 0 or won't do anything?? in iRO it breaks the healing to members.. [malufett]
 
 			clif_skill_nodamage(src, *target, getSkillId(), i);
