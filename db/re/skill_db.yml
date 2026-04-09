@@ -37818,7 +37818,7 @@ Body:
         Area: 3
       - Level: 10
         Area: 3
-    Cooldown: 60000
+    Cooldown: 30000
     Duration1: 30000
     Duration2:
       - Level: 1
