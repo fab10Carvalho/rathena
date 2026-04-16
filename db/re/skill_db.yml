@@ -37728,7 +37728,7 @@ Body:
     FixedCastTime: 500
     Requires:
       SpCost: 150
-      ApCost: 150
+      ApCost: 120
     Status: Darkcrow
   - Id: 5295
     Name: MT_AXE_STOMP
