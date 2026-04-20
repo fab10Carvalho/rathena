@@ -39022,7 +39022,7 @@ Body:
     Hit: Single
     HitCount: 1
     Element: Weapon
-    GiveAp: 1
+    GiveAp: 2
     CastTime: 1000
     AfterCastActDelay: 700
     Duration1: 10000
